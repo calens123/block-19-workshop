@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Freelancer Forum</title>
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        margin: 20px 0;
+      }
+      th,
+      td {
+        border: 7px solid rgb(67, 133, 65);
+        padding: 8px;
+        text-align: left;
+      }
+      th {
+        background-color: #a5a2a2;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Welcome, FreeLancers!</h2>
+    <p id="average-price">The average starting price is currently $0.</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Names</th>
+          <th>Occupations</th>
+          <th>Starting Prices</th>
+        </tr>
+      </thead>
+      <tbody id="freelancer-list"></tbody>
+    </table>
+    <script src="script.js"></script>
+  </body>
+</html>
